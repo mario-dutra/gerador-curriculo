@@ -1,0 +1,376 @@
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    color: gray;
+    text-align: center;
+    margin-top: 30px;
+}
+
+hr {
+
+    margin-left: 5%;
+    background-color: #cccc;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    width: 20%;
+}
+
+.geral {
+    border: 0px solid rgb(230, 215, 18);
+    display: flex;
+
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(37, 7, 80);
+
+}
+
+.box1 {
+    border: 0px solid red;
+    width: 35%;
+    height: 500px;
+    margin-top: 0;
+    overflow-y: scroll;
+}
+
+.box2 {
+
+    width: 65%;
+    border: 0px solid green;
+    height: 580px;
+    overflow-y: scroll;
+   
+}
+
+
+
+/*formulario*/
+
+.largura{
+    width: 100%; 
+}
+
+.largura_input{
+    width: 95%; 
+}
+
+input {
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+button {
+    width: 120px;
+}
+
+select {
+    padding: 10px;
+}
+
+/*fim formulario*/
+
+#box-geral-curriculo {
+    border: 0px solid rgb(12, 12, 12);
+    width: 100%;
+    height: 1110px;
+    background-color: white;
+    overflow: hidden;
+
+}
+
+#topo {
+    width: 100%;
+    height: 200px;
+    border: 0px solid blue;
+    position: relative;
+    background-color: #060650;
+    font-weight: bolder;
+}
+
+.novo_t {
+    background-color: white !important;
+}
+
+#foto {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 0px solid black;
+    position: absolute;
+    top: 30px;
+    left: 40px;
+
+}
+
+.foto_personalizada {
+    width: 30% !important;
+    height: 170px !important;
+    border: 0px solid black !important;
+    position: absolute;
+    top: 0px !important;
+    left: 0px !important;
+    border-radius: 0 !important;
+    text-align: center !important;
+    background-color: #e3edd2 !important;
+    padding-top: 30px !important;
+}
+
+#nome2 {
+    width: 69%;
+    height: 100px;
+    border: 0px solid black;
+    position: absolute;
+    right: 2px;
+    top: 70px;
+    font-size: 20pt;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+}
+
+.nome2_p {
+    color: rgb(24, 23, 23) !important;
+    text-align: center !important;
+    font-weight: bold !important;
+    font-size: 20pt !important;
+    right: 2px !important;
+    top: 0px !important;
+    padding-top: 50px !important;
+    width: 69% !important;
+    border: 0px solid black !important;
+
+}
+
+.img {
+    border-radius: 50%;
+    border: 3px solid white;
+}
+
+/*box informações*/
+#box-informacoes {
+    width: 30%;
+    height: 1030px;
+    border: 0px solid green;
+    padding-top: 10px;
+    float: left;
+    background-color: #e3edd2;
+}
+
+.box_informacao {
+
+    background-color: white !important;
+}
+
+
+
+/*box experiencias*/
+#experiencias {
+    width: 69%;
+    height: 800px;
+    border: 0px solid rgb(238, 60, 11);
+    float: right;
+    background-color: white;
+}
+
+.box_experiencias {
+    background-color: rgb(244, 241, 241) !important;
+    height: 1030px !important;
+}
+
+#texto2 {
+    width: 92%;
+    padding-left: 1%;
+    height: 100px;
+    border: 0px solid black;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 9pt;
+    color: #626360;
+    margin-bottom: 45px;
+    overflow: hidden;
+    text-align: justify;
+}
+
+.contato {
+    width: 92%;
+    height: 70px;
+    border: 0px solid black;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 9pt;
+    color: #626360;
+    position: relative;
+    margin-bottom: 30px;
+    margin-left: 5%;
+    overflow: hidden;
+}
+
+#endereco2,
+#email2,
+#tel2 {
+    border: 0px solid blue;
+    margin-left: 9%;
+    height: 15px;
+    margin-bottom: 3px;
+    width: 220px;
+}
+
+.img-endereco,
+.img-email,
+.img-tel {
+    position: absolute;
+    border: 0px solid red;
+    width: 15px;
+    height: 15px;
+
+}
+
+
+.formacao {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 9pt;
+    color: #626360;
+    border: 0px solid black;
+    padding-left: 5%;
+    margin-bottom: 40px;
+}
+
+#curso2,
+#graduacao2,
+#inicio-curso2,
+#fim-curso2 {
+    border: 0px solid orange;
+    padding-bottom: 5px;
+}
+
+.box-formacao {
+    float: left;
+    border: 0px solid black;
+    padding-right: 3px;
+
+}
+
+#c_complementar1,
+#c_complementar2 {
+    margin-bottom: 5px;
+}
+
+
+.experiencia {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 8pt;
+    color: #626360;
+    margin-left: 8%;
+    width: 450px;
+    overflow: hidden;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    border: 0px solid blue;
+    text-align: justify;
+   
+}
+
+
+
+.empresa {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+    color: #585854;
+    text-align: center;
+    font-weight: bolder;
+
+}
+
+.data_e_s {
+    border: 0px solid black;
+    float: left;
+    margin-left: 8%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    color: #585854;
+    margin-top: 10px;
+}
+
+fieldset{
+    margin-bottom: 30px;
+    background-color: #e6e7e3;
+  
+}
+
+legend{
+    background-color: #969891;
+    color: white;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+#enviar{
+    background-color: rgb(47, 171, 47);
+    padding: 5px;
+    border:none;
+}
+
+.botoes{
+    border: 0px solid black;
+    text-align: center;
+}
+
+#modelo1,#modelo2,#gerar-pdf{
+    width: 30%;
+    padding:4px;
+    margin-bottom: 10px;
+}
+
+
+
+/*responsividade*/
+
+
+@media (max-width:1000px) {
+      
+   
+  .geral{
+    display: block;
+  }
+  .box1,.box2{
+    width: 100%;
+    height: 320px;
+  }
+ .box2{
+    height: 170px;
+ }
+input,textarea{
+   
+width: 91%;
+  }
+
+  
+  
+  #modelo1,#modelo2,#gerar-pdf{
+    width: 30%;
+    padding:4px;
+    margin-bottom: 10px;
+}
+
+
+
+  }
+
+ 
+ 
+      
+        
