@@ -346,12 +346,14 @@ legend{
   .geral{
     display: block;
   }
-  .box1,.box2{
+.box1{
     width: 100%;
-    height: 320px;
+   
   }
  .box2{
-    height: 100%;
+    width: 100%;
+    height: 60%;
+    border: 0px solid red;
  }
 input,textarea{
    
