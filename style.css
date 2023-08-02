@@ -373,7 +373,7 @@ width: 91%;
   
     top: 30%;
     bottom: 10%;
-
+   overflow:hidden;
 }
 
   }
