@@ -15,11 +15,11 @@ botao.addEventListener("click", function (e) {
    const nome_p = document.querySelector('#nome2');
    nome_p.classList.add('nome2_p');
 
-   const box_informacao = document.querySelector('#box-informacoes');
-   box_informacao.classList.remove('box_informacao');
+  // const box_informacao = document.querySelector('#box-informacoes');
+  // box_informacao.classList.add('box_informacao');
 
    const box_experiencias = document.querySelector("#experiencias");
-   box_experiencias.classList.remove('box_experiencias');
+   box_experiencias.classList.add('box_experiencias');
 });
 
 
