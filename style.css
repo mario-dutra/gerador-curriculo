@@ -369,7 +369,7 @@ width: 91%;
 }
 
     #box-geral-curriculo {
-   
+    overflow: hidden;
     height: 500px;
   
 
